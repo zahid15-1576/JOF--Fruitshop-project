@@ -1,4 +1,97 @@
-h1{
-    font-size: 50px;
-    color: aqua;
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.design{
+    border-top: solid #282e40 23px ;
+    clip-path: polygon(0 0, 81% 0, 80% 100%, 0 100%);
+}
+.nav-continer{
+    background-color: #fff;
+    padding: 20px 120px;
+}
+.nav-contain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-link a{
+    text-decoration: none;
+    font-size: 21px;
+    color: #3a3838;
+}
+.nav-link ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  .nav-link ul li{
+      padding: 10px 40px;
+      font-family: 'Roboto', sans-serif;
+  }
+
+  .nav-link a:hover{
+      color:#639ebe;
+      transition-duration: .4s;
+  }
+
+  /* Fresh-Red-Apple-section */
+  .Fresh-Red-Apple-section{
+    min-height: 560px;
+    background: #282e40;
+    position: relative;
+  }
+
+  .Fresh-Red-Apple-section::before {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    content: "";
+    background: #fff;
+    display: block;
+    height: 90px;
+}
+.Fresh-Red-Apple-section::after { 
+    width:54%;
+    position: absolute;
+    top: 0;
+    right: -370px;
+    content: "";
+    background: #fff;
+    display: block;
+    height: 100%;
+    transform: skew(50deg);
+}
+  .Fresh-Red-Apple-continer{
+      padding: 62px 120px 0px;
+      position: relative;
+      z-index: 99;
+  }
+  .Fresh-Red-Apple-contain{
+      display: flex;
+      justify-content: space-between;
+  }
+  .apple-contain{
+      width: 47%;
+  }
+  .apple-contain h1{
+      color: #5293b7;
+      font-size: 50px;
+      font-family: 'Poppins', sans-serif;
+  }
+  .apple-contain h2{
+    color: #fff;
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: -20px;
+}
+.apple-contain p{
+    font-size: 19.5px;
+    color: #fff;
+    font-family: 'Baloo Tammudu 2', cursive;
+    padding-top: 20px;
 }
