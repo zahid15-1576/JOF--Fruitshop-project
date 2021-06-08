@@ -99,13 +99,88 @@
 .btn-class{
     background-color: #282e40;
     padding: 20px 30px;
-    width: 200px;
+    width: 210px;
     text-align: center;
-    padding-bottom: 10px;
+    transition-duration: .5s;
 }
 .btn-class a{
     text-decoration: none;
     color: #fff;
     font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-class:hover{
+    background-color: #5293B7;
+    transition-duration: .5s;
+}
+/* About our shop Section */
+
+.About-our-shop-section{
+    padding: 80px 110px;
+}
+.img-shop img{
+    padding: 0 30px;
+}
+.img-shop{
+    padding: 0 15px;
+}
+.About-our-shop-contain{
+    display: flex;
+}
+
+.contain-shop{
+    padding: 0 15px;
+}
+.contain-shop h1{
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 50px;
+}
+
+.contain-shop p{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 19px;
+    padding-bottom: 30px;
+
+}
+
+/* Our Fruits section */
+
+.Our-Fruits-section{
+    padding: 80px 110px;
+    background: #282e40;
+    width: 90%;
+}
+.Our-Fruits-contain{
+    text-align: center;
+    display: flex;
+}
+
+.Our-Fruits-continer h1{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-left: 150px;
+}
+
+.Fruits-contain{
+    width: 35%;
+    margin-right: 20px;
+}
+.Fruits-contain img{
+    padding: 10px 20px;
+    width: 387px;
+}
+.Fruits-contain h2{
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 5px;
+}
+.Fruits-contain h3{
+    color: #12c6f4;
     font-family: 'Roboto', sans-serif;
 }
