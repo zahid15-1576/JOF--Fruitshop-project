@@ -184,3 +184,80 @@
     color: #12c6f4;
     font-family: 'Roboto', sans-serif;
 }
+
+
+/* Fresh Lemon section */
+.Fresh-Lemon-section{
+    padding: 150px 110px;
+}
+.Fresh-Lemon-contain .img-shop img{
+    margin-right: -500px;
+
+}
+.Fresh-Lemon-contain{
+    display: flex;
+}
+
+.Fresh-Lemon-contain .contain-shop{
+    padding: 0 15px;
+    
+}
+.Fresh-Lemon-contain .contain-shop h1{
+    font-size: 75px;
+    color:#5293b7;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 50px;
+}
+
+.Fresh-Lemon-contain .contain-shop p{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 18px;
+    padding-bottom: 30px;
+    font-weight: 100;
+
+}
+
+/* Our Blog section */
+.Our-Blog-section{
+    padding: 80px 110px;
+    background: #282e40;
+    width: 90%;
+    float: right;
+}
+.Our-Blog-heading h1{
+
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-right: 130px;
+}
+
+.post-list-contain{
+    text-align: center;
+    background-color: #12c6f4;
+    margin-top: -5px;
+    width: 360px;
+    padding: 25px;
+    
+}
+.post-list-contain h4{
+    font-size: 18px;
+    color: #fff;
+    padding: 10px;
+}
+.post-list-contain p{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 17px;
+}
+.post-list{
+    width: 35%;
+    padding-right: 30px;
+    
+}
+.post{
+    padding-top: 50px;
+    display: flex;
+    margin-left: -110px;
+}
