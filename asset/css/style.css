@@ -220,7 +220,7 @@
 /* Our Blog section */
 .Our-Blog-section{
     padding: 80px 110px;
-    background: #282e40;
+    background-color: #282e40;
     width: 90%;
     float: right;
 }
@@ -260,4 +260,185 @@
     padding-top: 50px;
     display: flex;
     margin-left: -110px;
+}
+
+/* Request a Call Back section */
+.Call-Back-section{
+    margin: 100px 0px;
+    padding: 100px 110px 80px -100px;
+    float: left;
+}
+
+.Call-Back-contain{
+    display: flex;
+}
+.Call-Back-heading h1{
+    font-size: 45px;
+    color: #282e40;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 20px;
+    margin-left: -30px;
+}
+.Call-Back-heading strong{
+    font-size: 45px;
+    color: #12c6f4;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.Call-Back-form form{
+    margin-left: -30px;
+    
+}
+.action{
+    background-color: #282e40;
+    width: 570px;
+    padding: 25px 13px;
+    margin: 10px 0;
+    font-size: 17px;
+    color: #fff;
+    
+}
+
+.btn2-class{
+    background-color: #12c6f4;
+    padding: 20px 30px;
+    width: 210px;
+    text-align: center;
+    transition-duration: .5s;
+    margin-top: 30px;
+}
+.btn2-class a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn2-class:hover{
+    background-color: #5293B7;
+    transition-duration: .5s;
+}
+.btn2-class a:hover{
+    color: #fff;
+}
+
+/* Contact Us section */
+.Contact-section{
+    padding: 80px 110px;
+    background-color: #282e40;
+    overflow: hidden;
+}
+.Contact-continer{
+   color: #fff; 
+}
+.Contact-contain{
+    display: flex;
+}
+.Contact-contain h1{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px 0;
+}
+.Contact-Us{
+    width: 25%;
+    padding: 0 10px;
+}
+.location{
+    font-size: 18px;
+    font-family: 'Libre Franklin', sans-serif;
+    padding: 20px 0;
+}
+.number{
+    font-size: 18px;
+    font-family: 'Libre Franklin', sans-serif;
+    padding: 20px 0;
+}
+.email{
+    font-size: 18px;
+    font-family: 'Libre Franklin', sans-serif;
+    padding: 20px 0;
+}
+.pages{
+    width: 25%;
+    padding: 0 10px;
+}
+.pages ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.pages ul li{
+    padding: 5px 0;
+}
+.pages ul a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Libre Franklin', sans-serif;
+    transition-duration: 0.4s;
+}
+.pages ul a:hover{
+    color: #12c6f4;
+    transition-duration: 0.4s;
+}
+
+.Recent-Post{
+    width: 25%;
+    padding: 0 15px;
+}
+.Newsletter{
+    width: 25%;
+    padding: 0 10px;
+}
+.imge-con{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+.imge-con p{
+    font-size: 18px;
+}
+.imge-con img{
+    padding-right: 10px;
+}
+.enter{
+    background-color: #fff;
+    width: 280px;
+    padding: 18px 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+}
+
+.btn3-class{
+    background-color: #12c6f4;
+    padding: 8px 5px;
+    width: 100px;
+    text-align: center;
+    transition-duration: .5s;
+    margin-top: 30px;
+}
+.btn3-class a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn3-class:hover{
+    background-color: #5293B7;
+    transition-duration: .5s;
+}
+.btn3-class a:hover{
+    color: #fff;
+}
+
+.Copyrigh-section{
+    padding: 20px 130px;
+    background-color: #046882;
+    text-align: center;
+}
+.Copyrigh-section p{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
 }
